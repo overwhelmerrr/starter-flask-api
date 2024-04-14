@@ -9,7 +9,7 @@ import os
 load_dotenv('process.env')
 
 DATABASE_URL = os.getenv('DATABASE_URL')
-
+# Игнат лучший
 
 class TCPServer:
     def __init__(self, host, port, database_url,

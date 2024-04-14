@@ -9,3 +9,12 @@ python-dotenv==1.0.0
 uvicorn==0.22.0
 waitress==2.1.2
 Werkzeug==2.3.4
+async-timeout==4.0.3
+asyncpg==0.29.0
+numpy==1.26.4
+pandas==2.2.2
+python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
+pytz==2024.1
+six==1.16.0
+tzdata==2024.1

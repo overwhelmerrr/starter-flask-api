@@ -24,7 +24,7 @@ class TCPServer:
         # formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
         # file_handler = logging.FileHandler('server.log')
         # file_handler.setFormatter(formatter)
-        self.logger.addHandler(file_handler)
+        # self.logger.addHandler(file_handler)
         self.connection_pool: Pool = None
         self.auth_connection_pool: Pool = None
         self.semaphore = asyncio.Semaphore(6)
